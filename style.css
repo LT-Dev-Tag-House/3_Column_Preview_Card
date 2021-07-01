@@ -1,0 +1,152 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.d-flex {
+    margin-top: 2rem;
+}
+
+.card--one {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5rem 0rem;
+    margin: 0 auto;
+    min-width: 25%;
+    max-width: 45%;
+}
+
+.card--two {
+    background-color: hsl(184, 100%, 22%);
+    padding: 5rem 0rem;
+    margin: 0 auto;
+    min-width: 25%;
+    max-width: 45%;
+}
+
+.card--three {
+    background-color: hsl(179, 100%, 13%);
+    padding: 5rem 0rem;
+    margin: 0rem auto;
+    min-width: 25%;
+    max-width: 45%;
+}
+
+.card--title {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card--text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.55;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+    display: inline-block;
+    margin-top: 3.55rem;
+    text-decoration: none;
+    padding: .55rem .25rem;
+    font-size: 13px;
+}
+
+
+
+.btn--suvs {
+    color: hsl(184, 100%, 22%);
+    background: #fff;
+    border-radius: 35px;
+    border: 3px solid white;
+}
+
+.btn--sedans {
+    color: hsl(31, 77%, 52%);
+    background: #fff;
+    border-radius: 35px;
+    border: 3px solid white;
+}
+
+.btn--luxury {
+    color: hsl(179, 100%, 13%);
+    background: #fff;
+    border-radius: 35px;
+    border: 3px solid white;
+}
+
+.btn--sedans:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn--suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn--luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (min-width: 1024px) {
+    .d-flex {
+        display: flex;
+        margin-top: 5rem;
+        justify-content: center;
+    }
+
+    .container {
+        width: 65%;
+        margin: 0 auto;
+        max-width: 350px;
+    }
+
+    .card--one {
+        background-color: hsl(31, 77%, 52%);
+        padding: 8rem 0rem;
+        margin: 0;
+        min-width: 15%;
+        max-width: 20%;
+    }
+    
+    .card--two {
+        background-color: hsl(184, 100%, 22%);
+        padding: 8rem 0rem;
+        margin: 0;
+        min-width: 15%;
+        max-width: 20%;
+    }
+    
+    .card--three {
+        background-color: hsl(179, 100%, 13%);
+        padding: 8rem 0rem;
+        margin: 0;
+        min-width: 15%;
+        max-width: 20%;
+    }
+
+    a {
+        padding: .55rem .45rem;
+        font-size: 1.15rem;
+    }
+    
+
+
+
+}
+
+
